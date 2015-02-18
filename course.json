@@ -1,0 +1,13 @@
+{
+  "id": "1600-f213-4cb5",
+  "title": "Coursetitle",
+  "description": "Description of this course",
+  "language": "de",
+  "starttopic_id": "2000-f213-4cb5",
+  "topics": [
+    "#!@topic.json"
+  ],
+  "papers": [
+    "#!@paper.json"
+  ]
+}
