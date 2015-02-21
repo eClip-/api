@@ -5,16 +5,12 @@
     "created": "1424366252355",
     "modules": [
         {
-            "name": "Multiple Choice Quiz",
-            "slug": "multiple-choice-quiz",
-            "repoUrl": "https://github.com/beevelop/eclip-simple-choice.git",
-            "repo": "beevelop/eclip-simple-choice",
-            "popularity": 9484393,
+            "MPID": "1337",
             "num": 1,
             "settings": {
-                "question": "What is the solution?",
-                "answer1": "42",
-                "answer2": "1337"
+                "key1": "value1",
+                "key2": "value2",
+                "keyN": "valueN"
             }
         }
     ]
