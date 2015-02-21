@@ -1,17 +1,20 @@
-SID 	Session
-UID 	User
+SID 	(19XX)	Session
+UID 	(21XX)	User
 
-PPID 	Participation
-TRID 	Trace
+PPID 	(32XX)	Participation
 
-CID 	Course
-TID 	Topic
-NID 	Node
-LID 	Link
-PID 	Paper
+CID 	(3XX)	Course
+TID 	(20XX)	Topic
+NID 	(14XX)	Node
+PID 	(16XX)	Paper
 
-MID 	Module
-MDID 	ModuleData
-MPID 	ModulePackage
-MSID 	ModuleSetting
-SMDID 	SharedModuleData
+MID 	(13XX)	Module
+MPID 	(39XX)	ModulePackage
+
+TRID 	(38XX)	Trace
+
+# Imaginary
+LID 	(12XX)	Link (attribute of Node)
+MSID 	(33XX)	ModuleSetting (attribute of Module)
+MDID 	(17XX)	ModuleData (attribute of Trace)
+SMDID 	(36XX)	SharedModuleData (attribute of Participation)
