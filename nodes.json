@@ -1,44 +1,44 @@
 [
   {
-    "node_id": "1400-f213-4cb5",
-    "paper_id": "1600-f213-4cb5",
+    "NID": "1400-f213-4cb5",
+    "PID": "1600-f213-4cb5",
     "links": [
       {
         "type": "default",
-        "target_id": "1401-f213-4cb5"
+        "NID": "1401-f213-4cb5"
       }
     ]
   },
   {
-    "node_id": "1401-f213-4cb5",
-    "paper_id": "1601-f213-4cb5",
+    "NID": "1401-f213-4cb5",
+    "PID": "1601-f213-4cb5",
     "links": [
       {
         "type": "default",
-        "target_id": "1402-f213-4cb5"
+        "NID": "1402-f213-4cb5"
       },
       {
         "type": "fork",
-        "target_id": "1403-f213-4cb5"
+        "NID": "1403-f213-4cb5"
       }
     ]
   },
   {
-    "node_id": "1402-f213-4cb5",
-    "paper_id": "1602-f213-4cb5",
+    "NID": "1402-f213-4cb5",
+    "PID": "1602-f213-4cb5",
     "links": [
       {
         "type": "default",
-        "target_id": "1404-f213-4cb5"
+        "NID": "1404-f213-4cb5"
       }
     ]
   },
   {
-    "node_id": "1404-f213-4cb5",
-    "topic_id": "2000-f213-4cb5"
+    "NID": "1404-f213-4cb5",
+    "TID": "2000-f213-4cb5"
   },
   {
-    "node_id": "1403-f213-4cb5",
-    "topic_id": "2001-f213-4cb5"
+    "NID": "1403-f213-4cb5",
+    "TID": "2001-f213-4cb5"
   }
 ]
