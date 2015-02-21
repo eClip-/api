@@ -3,7 +3,6 @@
   "title": "Coursetitle",
   "description": "Description of this course",
   "language": "de",
-  "startTID": "2000-f213-4cb5",
   "topics": [
     "#!@topic.json"
   ],
