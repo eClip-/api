@@ -1,8 +1,8 @@
 {
-  "id": "2001-f213-4cb5",
+  "ID": "2001-f213-4cb5",
   "title": "Topictitle",
-  "course_id": "300-f213-4cb5",
-  "startnode_id": "1400-f213-4cb5",
+  "CID": "300-f213-4cb5",
+  "startNID": "1400-f213-4cb5",
   "nodes": [
     "#!@nodes.json"
   ]
