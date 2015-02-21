@@ -1,0 +1,17 @@
+SID 	Session
+UID 	User
+
+PPID 	Participation
+TRID 	Trace
+
+CID 	Course
+TID 	Topic
+NID 	Node
+LID 	Link
+PID 	Paper
+
+MID 	Module
+MDID 	ModuleData
+MPID 	ModulePackage
+MSID 	ModuleSetting
+SMDID 	SharedModuleData
