@@ -6,7 +6,7 @@
     "modules": [
         {
             "MPID": "3900-f213-4cb5",
-            "num": 1,
+            "position": 1,
             "settings": {
                 "key1": "value1",
                 "key2": "value2",
