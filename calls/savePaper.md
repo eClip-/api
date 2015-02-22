@@ -7,6 +7,7 @@
     "title": "Papertitle",
     "modules": [
         {
+            "MID" : 3800, //optional
             "MPID": 3900,
             "position": 1,
             "settings": {
