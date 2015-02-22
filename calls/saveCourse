@@ -1,0 +1,12 @@
+{
+  "title": "neuer Course",
+  "description": "Description of this course",
+  "language": "de",
+  "topics": [
+    {
+      "title": "topic1",
+      "isStart": "true",
+      
+    }
+  ]
+}
