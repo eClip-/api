@@ -6,6 +6,7 @@
   "nodes": [
     {
       "ID": "1400-f213-4cb5",
+      "isStart": "true",
       "PID": "1600-f213-4cb5",
       "links": [
         {
