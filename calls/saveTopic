@@ -2,7 +2,7 @@
   "ID": 1000, //optional
   "title": "Topictitle",
   "CID": 43, //obligatorisch
-  "startNID": "1400-f213-4cb5",
+  "isStart": "true",
   "nodes": [
     {
       "ID": "1400-f213-4cb5",
