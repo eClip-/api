@@ -1,0 +1,32 @@
+{
+  "ID": "2001-f213-4cb5",
+  "title": "Topictitle",
+  "CID": "300-f213-4cb5",
+  "startNID": "1400-f213-4cb5",
+  "nodes": [
+    {
+      "ID": "1400-f213-4cb5",
+      "PID": "1600-f213-4cb5",
+      "links": [
+        {
+          "type": "default",
+          "NID": "1401-f213-4cb5"
+        }
+      ]
+    },
+    {
+      "ID": "1401-f213-4cb5",
+      "PID": "1601-f213-4cb5",
+      "links": [
+        {
+          "type": "default",
+          "NID": "1402-f213-4cb5"
+        },
+        {
+          "type": "fork",
+          "NID": "1403-f213-4cb5"
+        }
+      ]
+    }
+  }
+}
