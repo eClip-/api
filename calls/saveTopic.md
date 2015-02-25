@@ -1,38 +1,6 @@
-{
-  "ID": 1000, //optional
-  "title": "Topictitle",
-  "CID": 43, //obligatorisch
-  "isStart": "true",
-  "nodes": [
-    {
-      "ID": "1400-f213-4cb5",
-      "isStart": "true",
-      "PID": "1600-f213-4cb5",
-      "links": [
-        {
-          "type": "default",
-          "NID": "1401-f213-4cb5"
-        }
-      ]
-    },
-    {
-      "ID": "1401-f213-4cb5",
-      "PID": "1601-f213-4cb5",
-      "links": [
-        {
-          "type": "default",
-          "NID": "1402-f213-4cb5"
-        },
-        {
-          "type": "fork",
-          "NID": "1403-f213-4cb5"
-        }
-      ]
-    }
-  }
-}
+# savePaper
 
-possible call?
+```json
 {
   "CID": 364, //Course ID obligatorisch
   "ID": 365, //Topic exisitiert bereits
@@ -74,3 +42,11 @@ possible call?
     }
   ]
 }
+```
+
+```json
+{
+    "msg": "You suck"
+}
+```
+
