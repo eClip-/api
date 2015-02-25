@@ -2,43 +2,41 @@
 
 ```json
 {
-  "CID": 364, //Course ID obligatorisch
-  "ID": 365, //Topic exisitiert bereits
+  "CID": 300, //Course ID obligatorisch
+  "ID": 2000, //Topic exisitiert bereits
   "title": "letitle",
   "nodes": [
     {
-      "isStart": "true",
-      "PID": 366, //Verweis auf Paper
-      "target_ID": "1402-f213-4cb5", //Target_ID die nicht gespeichert wird, wird nur als Referenz benutzt
+      "CREATE": true,
+      "isStart": true,
+      "PID": 1600, //Verweis auf Paper
+      "ID": 1400, //Target_ID die nicht gespeichert wird, wird nur als Referenz benutzt
       "links": [
         {
-          "ID": 376, //Link exisitiert bereits
-          "type": "default", 
-          "target_ID": "1401-f213-4cb5", //Referenz 
-          "NID": 1337                    // zu Node mit ID 1337
+          "CREATE": true,
+          "type": "default",
+          "NID": 1401
         },
         {
-          "ID": 378, //Link exisitiert, aber es gab eine Veränderung
+          "CREATE": true,
           "type": "fork", 
-          "target_ID": "1403-f213-4cb5" //Referenz zum unten definierten Topic
+          "NID": 1402
         }
       ]
     },
     {
-      "ID": 1337,
-      "PID": 366,
-      "target_ID": "1401-f213-4cb5",
+      "ID": 1401,
+      "PID": 1601,
       "links": [
         {
-          "ID": 391,
           "type": "default",
-          "target_ID": "1402-f213-4cb5" //Endlosschleife
+          "NID": 1402
         }
       ]
     },
     {
       "TID": 400, //Node als Topic
-      "target_ID": "1403-f213-4cb5"
+      "NID": 1403
     }
   ]
 }
