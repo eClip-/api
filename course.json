@@ -1,7 +1,7 @@
 {
-  "ID": "1600-f213-4cb5",
+  "ID": 300,
   "title": "Coursetitle",
-  "description": "Description of this course",
+  "description": "Description",
   "language": "de",
   "topics": [
     "#!@topic.json"
