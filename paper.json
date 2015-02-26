@@ -1,11 +1,11 @@
 {
-    "ID": "1600-f213-4cb5",
+    "ID": 1600,
     "title": "Papertitle",
-    "updated": "1424366252355",
-    "created": "1424366252355",
+    "updated": 1424366252355,
+    "created": 1424366252355,
     "modules": [
         {
-            "MPID": "3900-f213-4cb5",
+            "MPID": 3900,
             "position": 1,
             "settings": {
                 "key1": "value1",
