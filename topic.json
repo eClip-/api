@@ -1,8 +1,7 @@
 {
-  "ID": "2001-f213-4cb5",
+  "ID": 2000,
   "title": "Topictitle",
-  "CID": "300-f213-4cb5",
-  "startNID": "1400-f213-4cb5",
+  "CID": 300,
   "nodes": [
     "#!@nodes.json"
   ]
