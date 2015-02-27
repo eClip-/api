@@ -1,5 +1,5 @@
 # savePaper
-
+## edit paper
 ```json
 {
     "ID": 1600,
@@ -19,6 +19,7 @@
     ]
 }
 ```
+## create paper
 ```json
 {
     "CREATE": true,
