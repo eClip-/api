@@ -5,7 +5,7 @@
     "created": 1424366252355,
     "modules": [
         {
-            "MPID": 3900,
+            "PKGID": 3900,
             "position": 1,
             "settings": {
                 "key1": "value1",
