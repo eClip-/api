@@ -1,3 +1,18 @@
-# RPC
+# ePC (*eClip Procedure Call*)
 
-## Request
+## Scheme
+eCPs follow the following basic scheme:
+`/action/entity/ID`
+
+### Action
+- save: Creates a new record or updates an existing one
+- get: Reads one or all records of the requested entity
+- delete: Deletes the specified record
+
+### Entity
+- Course
+- User
+
+### ID
+- optional for get and save
+- required for delete
