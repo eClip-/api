@@ -1,7 +1,7 @@
 # Course API
 
 ## get/course
-
+status : success
 Returns an JSONArry with the courses of the user without details. Only with id, title, language & description.
 ```json
 [
@@ -48,4 +48,78 @@ Returns an JSONArry with the courses of the user without details. Only with id, 
     "title": "title7"
   }
 ]
+```
+## get/course/{cid}
+status : success
+Returns an JSONObject with the details of a course.
+
+```json
+{
+  "topics": [
+    {
+      "nodes": [
+        {
+          "links": [
+            {
+              "NID": 7,
+              "type": "DEFAULT"
+            }
+          ],
+          "PID": 6,
+          "ID": 7
+        },
+        {
+          "links": [
+            {
+              "NID": 3,
+              "type": "DEFAULT"
+            },
+            {
+              "NID": 3,
+              "type": "FORK"
+            }
+          ],
+          "PID": 2,
+          "ID": 3
+        },
+        {
+          "links": [
+            
+          ],
+          "PID": 9,
+          "ID": 10
+        }
+      ],
+      "ID": 11,
+      "title": "topic_title"
+    }
+  ],
+  "description": "description",
+  "language": "de",
+  "ID": 1,
+  "title": "title",
+  "papers": [
+    {
+      "ID": 9,
+      "title": "paper 2 title",
+      "modules": [
+        
+      ]
+    },
+    {
+      "ID": 6,
+      "title": "paper 3 title",
+      "modules": [
+        
+      ]
+    },
+    {
+      "ID": 2,
+      "title": "paper title",
+      "modules": [
+        
+      ]
+    }
+  ]
+}
 ```
