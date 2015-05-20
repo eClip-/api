@@ -3,7 +3,7 @@
 ## get/course
 
 Returns an JSONArry with the courses of the user.
-
+```json
 [
   {
     "description": "description1",
@@ -48,3 +48,4 @@ Returns an JSONArry with the courses of the user.
     "title": "title7"
   }
 ]
+```
