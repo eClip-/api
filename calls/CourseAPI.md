@@ -2,7 +2,7 @@
 
 ## get/course
 
-Returns an JSONArry with the courses of the user.
+Returns an JSONArry with the courses of the user without details. Only with id, title, language & description.
 ```json
 [
   {
