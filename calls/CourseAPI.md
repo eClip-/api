@@ -1,7 +1,6 @@
 # Course API
-
-## get/course
-status : success
+These calls works only if you are not logged into the system.
+## /get/course
 Returns an JSONArry with the courses of the user without details. Only with id, title, language & description.
 ```json
 [
@@ -49,8 +48,7 @@ Returns an JSONArry with the courses of the user without details. Only with id, 
   }
 ]
 ```
-## get/course/{cid}
-status : success
+## /get/course/{cid}
 Returns an JSONObject with the details of a course.
 
 ```json
