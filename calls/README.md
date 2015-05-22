@@ -13,6 +13,7 @@ eCPs follow the following basic scheme:
 - Course
 - User
 - Participation
+- Pack
 
 ### ID
 - optional for get and save
