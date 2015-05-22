@@ -12,6 +12,7 @@ eCPs follow the following basic scheme:
 ### Entity
 - Course
 - User
+- Participation
 
 ### ID
 - optional for get and save
