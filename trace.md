@@ -1,3 +1,4 @@
+```
 {
   "NID": 1400,
   "TID": 2000,
@@ -5,6 +6,7 @@
   "modifier": "private",
   "share": true
 }
+```
 
 Traces = TRID + UID + Scope + Modifier + Share + key + value
 Scope = [NID | TID | CID |       ]
