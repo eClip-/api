@@ -1,6 +1,6 @@
 # Course API
 These calls works only if you are not logged into the system.
-## /get/course
+## /get/course/
 Returns an JSONArry with the courses of the user without details. Only with id, title, language & description.
 ```json
 [
