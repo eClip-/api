@@ -4,7 +4,6 @@ These calls do not require any permission
 ## /register
 ```json
 {
-  "reply-to": "yoloqueue",
   "email": "test1@tasdfsdfest.de",
   "username": "test",
   "password": "test"
@@ -15,7 +14,6 @@ These calls do not require any permission
 request:
 ```json
 {
-  "reply-to": "yoloqueue",
   "username": "test",
   "password": "test"
 }
