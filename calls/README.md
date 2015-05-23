@@ -3,7 +3,6 @@
 ## Scheme
 eCPs follow the following basic scheme:
 `/action/entity/ID`
-`/action/entity/`
 ### Action
 - save: Creates a new record or updates an existing one
 - get: Reads one or all records of the requested entity
