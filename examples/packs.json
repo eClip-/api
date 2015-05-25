@@ -11,3 +11,9 @@ github-card
   "slug": "github-card",
   "repo": "eClip-/github-card"
 }
+youtube
+{
+  "name": "Youtube",
+  "slug": "youtube",
+  "repo": "eClip-/youtube"
+}
