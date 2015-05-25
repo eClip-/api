@@ -5,3 +5,9 @@ eclip-simple-choice
   "slug": "eclip-simple-choice",
   "repo": "beevelop/eclip-simple-choice"
 }
+github-card
+{
+  "name": "Github card",
+  "slug": "github-card",
+  "repo": "eClip-/github-card"
+}
