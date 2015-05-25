@@ -1,19 +1,23 @@
-
-eclip-simple-choice
-{
-  "name": "Simple Choice",
-  "slug": "eclip-simple-choice",
-  "repo": "beevelop/eclip-simple-choice"
-}
-github-card
-{
-  "name": "Github card",
-  "slug": "github-card",
-  "repo": "eClip-/github-card"
-}
-youtube
-{
-  "name": "Youtube",
-  "slug": "youtube",
-  "repo": "eClip-/youtube"
-}
+[
+  {
+    "repo": "beevelop/eclip-simple-choice",
+    "name": "Simple Choice",
+    "ID": 11,
+    "version": "master",
+    "slug": "eclip-simple-choice"
+  },
+  {
+    "repo": "eClip-/github-card",
+    "name": "Github card",
+    "ID": 12,
+    "version": "master",
+    "slug": "github-card"
+  },
+  {
+    "repo": "eClip-/youtube",
+    "name": "Youtube",
+    "ID": 13,
+    "version": "master",
+    "slug": "youtube"
+  }
+]
