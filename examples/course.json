@@ -1,0 +1,198 @@
+{
+  "ID": 1600,
+  "title": "Coursetitle",
+  "description": "Description of this course",
+  "language": "de",
+  "topics": [
+    {
+      "ID": 2000,
+      "title": "Einfache Datentypen",
+      "CID": 300,
+      "startNID": 1400,
+      "nodes": [
+        {
+          "ID": 1400,
+          "PID": 1337,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1401
+            }
+          ]
+        },
+        {
+          "ID": 1401,
+          "PID": 5467,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1402
+            },
+            {
+              "type": "fork",
+              "NID": 1403
+            }
+          ]
+        },
+        {
+          "ID": 1402,
+          "PID": 1665702,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1404
+            }
+          ]
+        },
+        {
+          "ID": 1404,
+          "TID": 2001
+        },
+        {
+          "ID": 1403,
+          "TID": 2002
+        }
+      ]
+    },
+    {
+      "ID": 2001,
+      "title": "Grundlagen der Vektorrechnung",
+      "CID": 300,
+      "startNID": 1400,
+      "nodes": [
+        {
+          "ID": 1400,
+          "PID": 1600,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1401
+            }
+          ]
+        },
+        {
+          "ID": 1401,
+          "PID": 1601,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1402
+            },
+            {
+              "type": "fork",
+              "NID": 1403
+            }
+          ]
+        },
+        {
+          "ID": 1402,
+          "PID": 1602,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1404
+            }
+          ]
+        },
+        {
+          "ID": 1404,
+          "TID": 2000
+        },
+        {
+          "ID": 1403,
+          "TID": 2002
+        }
+      ]
+    },
+    {
+      "ID": 2002,
+      "title": "Algebra for Dummies",
+      "CID": 300,
+      "startNID": 1400,
+      "nodes": [
+        {
+          "ID": 1400,
+          "PID": 1603,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1401
+            }
+          ]
+        },
+        {
+          "ID": 1401,
+          "PID": 1602,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1402
+            },
+            {
+              "type": "fork",
+              "NID": 1403
+            }
+          ]
+        },
+        {
+          "ID": 1402,
+          "PID": 1604,
+          "links": [
+            {
+              "type": "default",
+              "NID": 1404
+            }
+          ]
+        },
+        {
+          "ID": 1404,
+          "TID": 2000
+        },
+        {
+          "ID": 1403,
+          "TID": 2001
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "ID": 1600,
+      "title": "Papertitle",
+      "updated": "1424366252355",
+      "created": "1424366252355",
+      "modules": [
+        {
+          "ID": 4683,
+          "MPID": 1,
+          "position": 2,
+          "settings": {
+            "question": "Möchtest du dieses Thema vertiefen?",
+            "answer1": "Ja",
+            "answer2": "Nein"
+          }
+        },
+        {
+          "ID": 12345,
+          "MPID": 1,
+          "position": 0,
+          "settings": {
+            "question": "Gelb + Blau = ?",
+            "answer1": "Grün",
+            "answer2": "Braun"
+          }
+        },
+        {
+          "ID": 1234,
+          "MPID": 1,
+          "position": 1,
+          "settings": {
+            "question": "Oder ",
+            "answer1": "answer1",
+            "answer2": "answer2"
+          }
+        }
+      ]
+    }
+  ]
+}
