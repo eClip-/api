@@ -164,7 +164,7 @@
       "modules": [
         {
           "ID": 4683,
-          "MPID": 1,
+          "PACKID": 3,
           "position": 2,
           "settings": {
             "question": "Möchtest du dieses Thema vertiefen?",
@@ -174,7 +174,7 @@
         },
         {
           "ID": 12345,
-          "MPID": 1,
+          "PACKID": 3,
           "position": 0,
           "settings": {
             "question": "Gelb + Blau = ?",
@@ -184,7 +184,7 @@
         },
         {
           "ID": 1234,
-          "MPID": 1,
+          "PACKID": 3,
           "position": 1,
           "settings": {
             "question": "Oder ",
