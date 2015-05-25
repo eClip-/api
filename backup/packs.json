@@ -1,0 +1,19 @@
+{
+  "packs": [
+    {
+      "name": "Simple Choice",
+      "slug": "eclip-simple-choice",
+      "repo": "beevelop/eclip-simple-choice"
+    },
+    {
+      "name": "Github card",
+      "slug": "github-card",
+      "repo": "eClip-/github-card"
+    },
+    {
+      "name": "Youtube",
+      "slug": "youtube",
+      "repo": "eClip-/youtube"
+    }
+  ]
+}
